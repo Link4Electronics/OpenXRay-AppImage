@@ -10,6 +10,7 @@ pacman -Syu --noconfirm \
     cmake     \
     libdecor  \
     libtheora \
+    mimalloc  \
     openal    \
     sdl2
 
