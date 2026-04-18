@@ -4,6 +4,7 @@ Terminal=false
 Categories=Game;Shooting;FPS;
 Icon=openxray_soc
 Exec=xr_3da
+StartupWMClass=
 Name=S.T.A.L.K.E.R.: Shadow of Chernobyl (OpenXRay)
 Comment=S.T.A.L.K.E.R.: Shadow of Chernobyl (Powered by OpenXRay)
 Comment[ru_RU]=S.T.A.L.K.E.R.: Тень Чернобыля (Powered by OpenXRay)
