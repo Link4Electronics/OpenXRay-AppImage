@@ -12,7 +12,7 @@ export DESKTOP=https://github.com/OpenXRay/xray-16/raw/refs/heads/dev/misc/linux
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
-quick-sharun ./AppDir/bin/xr_3da
+quick-sharun ./AppDir/bin/*
 
 # Additional changes can be done in between here
 
