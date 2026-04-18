@@ -29,6 +29,9 @@ VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
 git clone --recursive --depth 1 "$REPO" ./xray-16
 echo "$VERSION" > ~/version
 
+mkdir -p ./AppDir/bin
 cd ./xray-16
-make rednukem -j$(nproc)
-mv -v rednukem /usr/bin
+mkdir bin && cd bin
+cmake .. -DCMAKE_BUILD_TYPE=Release
+make -j$(nproc)
+mv -v xr_3da ../../AppDir/bin
