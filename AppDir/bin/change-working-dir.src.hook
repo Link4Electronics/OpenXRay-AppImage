@@ -12,7 +12,7 @@ fi
 
 # For S.T.A.L.K.E.R. - Clear Sky
 if [ ! -f "$dir/S.T.A.L.K.E.R. - Clear Sky/gamedata/configs/openxray.ltx" ]; then
-  cp -r "$APPDIR/bin/cs/gamedata" "$dir/S.T.A.L.K.E.R. - Clear Sky"
+  cp -rf "$APPDIR/bin/cs/gamedata" "$dir/S.T.A.L.K.E.R. - Clear Sky"
   cp "$APPDIR/bin/cs/fsgame.ltx" "$dir/S.T.A.L.K.E.R. - Clear Sky"
 fi
 
