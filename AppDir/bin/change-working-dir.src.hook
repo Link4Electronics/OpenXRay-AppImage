@@ -1,6 +1,6 @@
 #!/bin/sh
 dir="$DATADIR/GSC Game World"
-mkdir -p "$dir/S.T.A.L.K.E.R. - Call of Pripyat/_appdata_"
+mkdir -p "$dir/S.T.A.L.K.E.R. - Call of Pripyat/_appdata_/patches"
 mkdir -p "$dir/S.T.A.L.K.E.R. - Clear Sky"
 
 # For S.T.A.L.K.E.R. - Call of Pripyat
