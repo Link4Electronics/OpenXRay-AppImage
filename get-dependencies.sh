@@ -31,7 +31,14 @@ VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
 git clone --recursive --depth 1 "$REPO" ./xray-16
 echo "$VERSION" > ~/version
 
-mkdir -p ./AppDir/bin
+mkdir -p ./AppDir/bin/cs
+mkdir -p ./AppDir/bin/cop
+mkdir -p ./AppDir/bin/coc
+wget https://github.com/OpenXRay/xray-16/files/12452881/gamedata.zip # Clear Sky gamedata.zip
+bsdtar -xvf gamedata.zip 
+wget https://github.com/user-attachments/files/19356418/gamedata.zip  # Call of Chernobyl gamedata.zip
+
+
 cd ./xray-16
 mkdir bin && cd bin
 cmake .. -DCMAKE_BUILD_TYPE=Release
