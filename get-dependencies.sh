@@ -54,3 +54,5 @@ cd ./AppDir/bin/cop
 wget https://github.com/OpenXRay/xray-16/releases/download/latest-nightly/OpenXRay.Release.Master.Gold.64-bit.7z # Call of Pripyat files
 bsdtar -xvf OpenXRay.Release.Master.Gold.64-bit.7z
 rm -rf *.7z README.md License.txt bin
+cp -v fsgame.ltx ../cs
+sed -i '/^;abbreviation/a $app_data_root$         = true|  false| $fs_root$|            .\\' ../fsgame.ltx
