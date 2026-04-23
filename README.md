@@ -22,10 +22,10 @@
 ```
 levels localization mp patches resources
 ```
-### inside `~/.local/share/GSC Game World/S.T.A.L.K.E.R. - Call of Pripyat/_appdata_/` ⚠️
-⚠️ To play Clear Sky, place `levels` `localization` `mp` `patches` `resources` inside `~/.local/share/GSC Game World/S.T.A.L.K.E.R. - Clear Sky/` and use `-cs` flag ⚠️
-⚠️ Call of Chernobyl isn't working on linux, [issue](https://github.com/OpenXRay/xray-16/issues/1856) ⚠️
-### ⚠️ It may show a Fatal Error message or crash since it's compiled against unstable master branch, just keep choosing Continue and it works ⚠️
+### inside `~/.local/share/GSC Game World/S.T.A.L.K.E.R. - Call of Pripyat/_appdata_/`
+⚠️ To play Clear Sky, place `levels` `localization` `mp` `patches` `resources` inside `~/.local/share/GSC Game World/S.T.A.L.K.E.R. - Clear Sky/` and use `-cs` flag
+⚠️ Call of Chernobyl isn't working on linux, [issue](https://github.com/OpenXRay/xray-16/issues/1856)
+### ⚠️ It may show a Fatal Error message or crash since it's compiled against unstable master branch, just keep choosing Continue and it works
 
 ---
 
