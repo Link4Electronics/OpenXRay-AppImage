@@ -22,6 +22,7 @@
 Call of Pripyat (the default if no flag used, optionally use -cop flag): ~/.local/share/GSC Game World/S.T.A.L.K.E.R. - Call of Pripyat/_appdata_/
 Clear Sky (use -cs flag): ~/.local/share/GSC Game World/S.T.A.L.K.E.R. - Clear Sky/
 ```
+### ⚠️ It may show a Fatal Error message since it's compiled against unstable master branch, just keep choosing Continue and it works ⚠️
 
 ---
 
