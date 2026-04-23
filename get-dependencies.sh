@@ -33,6 +33,7 @@ echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin/cs
 mkdir -p ./AppDir/bin/coc
+mkdir -p ./AppDir/bin/cop
 wget https://github.com/OpenXRay/xray-16/files/12452881/gamedata.zip # Clear Sky gamedata.zip
 bsdtar -xvf gamedata.zip 
 rm -f *.zip
@@ -48,9 +49,7 @@ cmake .. -DCMAKE_BUILD_TYPE=Release
 make -j$(nproc)
 mv -v ${ARCH}/Release/* ../../AppDir/bin
 
-cd ../..
-mkdir -p ./AppDir/bin/cop
-cd ./AppDir/bin/cop
+cd ../../AppDir/bin/cop
 wget https://github.com/OpenXRay/xray-16/releases/download/latest-nightly/OpenXRay.Release.Master.Gold.64-bit.7z # Call of Pripyat files
 bsdtar -xvf OpenXRay.Release.Master.Gold.64-bit.7z
 rm -rf *.7z README.md License.txt bin
