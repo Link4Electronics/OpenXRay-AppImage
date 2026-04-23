@@ -2,6 +2,7 @@
 dir="$DATADIR/GSC Game World"
 mkdir -p "$dir/S.T.A.L.K.E.R. - Call of Pripyat/_appdata_"
 mkdir -p "$dir/S.T.A.L.K.E.R. - Clear Sky"
+mkdir -p "$dir/S.T.A.L.K.E.R. - Call of Chernobyl"
 
 # For S.T.A.L.K.E.R. - Call of Pripyat
 if [ ! -f "$dir/S.T.A.L.K.E.R. - Call of Pripyat/_appdata_/patches/xpatch_openxray_plus.db" ]; then
@@ -12,4 +13,9 @@ fi
 # For S.T.A.L.K.E.R. - Clear Sky
 if [ ! -f "$dir/S.T.A.L.K.E.R. - Clear Sky/gamedata/configs/openxray.ltx" ]; then
   cp -r "$APPDIR/bin/cs/gamedata" "$dir/S.T.A.L.K.E.R. - Clear Sky"
+fi
+
+# For S.T.A.L.K.E.R. - Call of Chernobyl
+if [ ! -f "$dir/S.T.A.L.K.E.R. - Call of Chernobyl/gamedata/scripts/sound_theme.script" ]; then
+  cp -r "$APPDIR/bin/coc/gamedata" "$dir/S.T.A.L.K.E.R. - Call of Chernobyl"
 fi
