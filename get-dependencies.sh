@@ -12,8 +12,6 @@ pacman -Syu --noconfirm \
     libtheora      \
     mimalloc       \
     openal         \
-    pipewire-audio \
-    pipewire-jack  \
     sdl2
 
 echo "Installing debloated packages..."
